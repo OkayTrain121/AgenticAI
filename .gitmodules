@@ -1,0 +1,3 @@
+[submodule "source_material/agents"]
+	path = source_material/agents
+	url = https://github.com/ed-donner/agents.git
