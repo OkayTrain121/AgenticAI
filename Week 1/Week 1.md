@@ -37,7 +37,14 @@ comparable results to OpenAI models for ex. See [pricing for OpenAI models](http
 
 ### Lecture 4
 
-Setting up environment for PC.
+Setting up environment for PC. See [this guide](../source_material/agents/README.md).
+The lecture talks about cloning the repo, but I am using it as a submodule. After the setup
+of the repo, install Cursor (NA - will use VSCode) and UV.
+
+Installing `uv` steps taken -
+- Installed using powershell as in [this guide](https://docs.astral.sh/uv/getting-started/installation/). Restart VSCode.
+- Go to the `agents` subm directory.
+- `uv sync`
 
 ### Lecture 5
 
