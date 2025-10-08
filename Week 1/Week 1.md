@@ -3,7 +3,7 @@
 ## Day 1
 
 ### Lecture 1
-This is a demo using N8N to use chatbot to control smart home devices.
+This is a demo using [N8N](https://n8n.io/) to use chatbot to control smart home devices.
 
 - Create a free account on N8N.
 - On the open canvas, connect a chat prompt to an AI Agent.
