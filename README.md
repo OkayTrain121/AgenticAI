@@ -2,6 +2,8 @@
 
 Projects developed in "The Complete Agentic AI Engineering Course (2025)".
 
+Master AI Agentic Engineering - build Autonomous AI Agents by Ed Donner.
+
 ## Project 1
 ## Project 2
 ## Project 3
