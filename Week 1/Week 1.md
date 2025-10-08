@@ -1,11 +1,13 @@
-# Summary of Week 1
+# Week 1
 
 This week is all about 'Foundations'.
-Project1: Your personal career agent.
+
+**Project1: Your personal career agent.**
 
 ## Day 1
 
 ### Lecture 1
+
 This is a demo using [N8N](https://n8n.io/) to use chatbot to control smart home devices.
 
 - Create a free account on N8N.
@@ -17,6 +19,7 @@ This is a demo using [N8N](https://n8n.io/) to use chatbot to control smart home
 ![image](N8N_smart_devices_demo.png)
 
 ### Lecture 2
+
 What is the course actually about? Theory, Frameworks, Projects. The outline of the course and expectations in each week
 is layed out.
 
@@ -32,29 +35,44 @@ environments.
 API costs - Given the use of LLM, we will incur API costs. Free alternatives such as Ollama might not produce
 comparable results to OpenAI models for ex. See [pricing for OpenAI models](https://openai.com/api/pricing/).
 
-# Summary of Week 2
+### Lecture 4
+
+Setting up environment for PC.
+
+### Lecture 5
+
+Setting up environment for
+
+# Week 2
 
 This week is all about 'OpenAI Agents SDK'.
-Project2: An SDR.
-Project3: Deep Research and application.
 
-# Summary of Week 3
+**Project2: An SDR.**
+
+**Project3: Deep Research and application.**
+
+# Week 3
 
 This week is all about 'CrewAI'.
-Project4: Stock Picker.
-Project5: Developer Agent and Engineering Team.
 
-# Summary of Week 4
+**Project4: Stock Picker.**
+
+**Project5: Developer Agent and Engineering Team.**
+
+# Week 4
 
 This week is all about 'LangGraph'.
-Project6: Sidekick - bring up a browser and interact alongside with us.
 
-# Summary of Week 5
+**Project6: Sidekick - bring up a browser and interact alongside with us.**
+
+# Week 5
 
 This week is all about 'AutoGen'.
-Project7: Agent Creator - build an agentic framwork that generates agents.
 
-# Summary of Week 6
+**Project7: Agent Creator - build an agentic framwork that generates agents.**
+
+# Week 6
 
 This week is all about 'MCP' (Model Concept Protocol).
-Project8: AI Equity Traders.
+
+**Project8: AI Equity Traders-.**
