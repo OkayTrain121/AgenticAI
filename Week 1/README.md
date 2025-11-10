@@ -46,9 +46,15 @@ Installing `uv` steps taken -
 - Go to the `agents` subm directory.
 - `uv sync`
 
+OpenAI API
+- 5 USD worth of credits has been paid for.
+- A key for the project has been setup.
+
 ### Lecture 5
 
 Setting up environment for
+
+### Lecture 6
 
 # Week 2
 
