@@ -47,14 +47,31 @@ Installing `uv` steps taken -
 - `uv sync`
 
 OpenAI API
-- 5 USD worth of credits has been paid for.
-- A key for the project has been setup.
+- Add 5 USD worth of credits, which apparently is enough for the course.
+- Setup a key for the project.
 
 ### Lecture 5
 
 Setting up environment for
 
 ### Lecture 6
+
+- Create a `.env` file and add store the `OPENAI_API_KEY`.
+- `cd source_material/agents`
+- Also copy the `.env` file over from the root dir for using in the labs.
+  - Can have symbolic links in Linux/Mac, but not in Windows.
+- Open `1_lab1.ipynb`.
+- Select the python interpreter from the `.venv` and since it is within the subm, we need to add the path to `.venv` in
+  the "Python: Venv Path" setting of VSCode, in order to find the python executable in that path.
+- Execute the cells of the notebook one at a time.
+- Deviations from lecture -
+  - Cells 8, 10 and 12: use the newer and cheaper `"gpt-5-nano"` instead of `"gpt-4.1-nano"`. Set this as the
+    `OPENAI_MODEL` envvar.
+- Execute the exercise as `uv run Week1/exercise.py`.
+
+### Lecture 7
+
+Closing statements for Day 1.
 
 # Week 2
 
