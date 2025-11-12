@@ -16,14 +16,14 @@ This is a demo using [N8N](https://n8n.io/) to use chatbot to control smart home
 - Provide the smart home device to control as the 'Tool' to the agent.
 - Send a chat message to control the device.
 
-![image](N8N_smart_devices_demo.png)
+![image](../images/N8N_smart_devices_demo.png)
 
 ### Lecture 2
 
 What is the course actually about? Theory, Frameworks, Projects. The outline of the course and expectations in each week
 is layed out.
 
-![image](Weekly_plan.png)
+![image](../images/Weekly_plan.png)
 
 ### Lecture 3
 
@@ -67,11 +67,74 @@ Setting up environment for
 - Deviations from lecture -
   - Cells 8, 10 and 12: use the newer and cheaper `"gpt-5-nano"` instead of `"gpt-4.1-nano"`. Set this as the
     `OPENAI_MODEL` envvar.
-- Execute the exercise as `uv run Week1/exercise.py`.
+- Execute the exercise as `uv run Week1/lab1_exercise.py`.
 
 ### Lecture 7
 
 Closing statements for Day 1.
+
+## Day 2
+
+### Lecture 1
+
+What is Agentic AI? Programs where LLM output controls the workflow. Common symptoms include - multiple LLM calls,
+ability to use tools, an environment where LLMs interact, a certain degree of autonomy.
+
+Anthropic discusses two patterns for Agentic AI -
+- Workflows - have predefined code flows. NOTE: weird to refer to this as "agentic", but ...
+- Agents - more autonomous.
+
+### Lecture 2
+
+5 Workflow Design Patterns defined by Anthropic.
+
+NOTE: All blue boxes are user defined code.
+
+#### 1. Prompt Chaining
+
+Decompose an input requirement into a sequence of well defined tasks.
+This is the pattern followed in `Week1/lab1_exercise.py`
+
+![image](../images/prompt_chaining.png)
+
+#### 2. Routing
+
+An input is taken by an LLM router which in-turn picks a "specialist" LLM that is best suited for the task.
+
+![image](../images/routing.png)
+
+#### 3. Parallelization
+
+An input is broken down by user-defined code and the broken pieces are sent to several different LLMs to handle the
+pieces in parallel. The outcome of the pieces is then aggregated to form the output.
+
+![image](../images/parallelization.png)
+
+#### 4. Orchestrator Worker
+
+This is similar to the Parallelization pattern with the difference being that the breakdown of tasks is performed by the
+LLM instead of user defined code.
+
+![image](../images/orchestrator_worker.png)
+
+#### 5. Evaluator Optimizer
+
+An LLM that generates a solution and a second LLM that plays the role of an evaluator/validator that checks the
+information and work performed by a prior LLM.
+
+![image](../images/evaluator_optimizer.png)
+
+### Lecture 3
+
+Agents in contrast to the Workflow design patterns, are typically open-ended, contain feedback loops,
+and contain no fixed path. There are some concerns such as non-determinism in path taken, output given,
+costs incurred. Monitoring and guardrails are essential.
+
+![image](../images/agents.png)
+
+## Day 3
+
+### Lecture 1
 
 # Week 2
 

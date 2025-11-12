@@ -1,5 +1,16 @@
 # This is the exercise from the Week 1 lab 1 of Agentic AI course.
 
+'''
+Exercise
+Now try this commercial application:
+- First ask the LLM to pick a business area that might be worth exploring for an Agentic AI opportunity.
+- Then ask the LLM to present a pain-point in that industry - something challenging that might be ripe for an Agentic
+solution.
+- Finally have 3 third LLM call propose the Agentic AI solution.
+We will cover this at up-coming labs, so don't worry if you're unsure.. just give it a try!
+'''
+
+
 from IPython.display import Markdown, display
 from dotenv import load_dotenv
 from openai import OpenAI
